@@ -1,0 +1,31 @@
+.box {
+  width: 200px;
+  padding: 20px;
+  border: 4px solid black;
+  margin: 20px;
+  background-color: lightblue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #86bce1;
+  color: #bc7ecf;
+  padding: 20px;
+}
+
+.flex-container {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  padding: 20px;
+  background-color: peachpuff;
+  border: 1px solid #333;
+}
