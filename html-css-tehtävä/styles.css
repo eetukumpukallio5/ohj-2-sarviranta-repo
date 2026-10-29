@@ -1,25 +1,40 @@
-body {
-  margin: 0;
+* {
+  margin: auto;
+  width: 80%;
   font-family:
     Arial,
-    Trebuchet Ms;
+    Trebuchet Ms,
+    sans-serif;
   line-height: 1.5;
   background-color: #ffd1bb;
   color: #28202b;
 }
 
-.index-main {
+p {
+  text-align: center;
+}
+
+.container {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
+  background-image: url("images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.child {
+  margin-top: 1em;
+  background-image: url("images/bg.png"); /*fiksaa vielä tää. toimii muttei oikein jatkuva elementtien välillä */
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .maintitle {
+  margin-top: 5em;
   font-weight: bold;
   font-size: xx-large;
-}
-
-* {
-  box-sizing: border-box;
+  text-align: center;
 }
