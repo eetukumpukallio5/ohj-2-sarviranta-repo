@@ -15,7 +15,12 @@ function getRandomInt(min, max) {
 }
 
 const heitotStr = prompt("Monta heittoa tehdään?");
-const heitot = parseInt(heitotStr);
+let heitot = parseInt(heitotStr);
 
-let summa;
+let summa = 0;
 
+for (heitot; heitot > 0; heitot--) {
+  summa += getRandomInt(1, 7);
+}
+
+document.querySelector("#target").textContent = "Heittojen summa on" + summa;
