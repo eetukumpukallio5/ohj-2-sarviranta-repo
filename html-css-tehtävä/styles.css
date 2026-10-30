@@ -14,6 +14,20 @@ p {
   text-align: center;
 }
 
+.headbox {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 4em;
+}
+
+.logo {
+  height: 0.5em;
+}
+
+.hbchild {
+  padding: 0.5em;
+}
+
 .container {
   display: flex;
   align-items: center;
