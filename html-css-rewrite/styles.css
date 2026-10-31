@@ -1,0 +1,77 @@
+.container { /*parametrit html kontentille, siis headereille maineille yms*/
+  margin: auto;
+  width: 60%;
+  font-family:
+    Arial,
+    Trebuchet Ms,
+    sans-serif;
+  line-height: 1.5;
+  color: #28202b;
+}
+
+body { /*poistaa raon sivun yläosan kanssa*/
+  margin: 0;
+}
+
+* { /*yleinen taustakuva kaikille elementeille*/
+  background-image:url("images/bg.png");
+}
+
+header { /*tekee yhden flexboxin headerista ja navista*/
+  display: flex;
+}
+
+header img { /*yksi osa headerin flexboxia, logo*/
+  width: 30%;
+}
+
+nav { /*headerin navit*/
+  width: 70%;
+}
+
+ul { /*tasaa listan navigaatio elementtejä*/
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+li a {
+    width: 10rem;
+    height: 3rem;
+    display: block;
+    text-align: center;
+    line-height: 3rem;
+    text-decoration: none;
+}
+
+li a:hover {
+  background-color: cadetblue;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.centtext {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 8rem;
+  margin-bottom: 0.5rem;
+  font-size: 3rem;
+}
+
+
+
+/*contact sivun oma css*/
+.map {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
