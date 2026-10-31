@@ -45,10 +45,6 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
-  background-color: cadetblue;
-}
-
 main {
   display: flex;
   flex-direction: column;
@@ -74,4 +70,21 @@ h1 {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.map section {
+  align-self: flex-start;
+}
+
+.map h2 {
+  margin-top: 0;
+}
+
+.map p {
+  font-style: italic;
+  line-height: 1.1;
+}
+
+.map aside {
+  margin-top: 3rem;
 }
