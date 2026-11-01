@@ -14,7 +14,7 @@ body { /*poistaa raon sivun yläosan kanssa*/
 }
 
 * { /*yleinen taustakuva kaikille elementeille*/
-  background-image:url("images/bg.png");
+  background-image:url("images/bg.webp");
 }
 
 header { /*tekee yhden flexboxin headerista ja navista*/
@@ -54,12 +54,60 @@ main {
 
 .centtext {
   text-align: center;
+  padding: 0 12rem 0 12rem;
 }
 
 h1 {
   margin-top: 8rem;
   margin-bottom: 0.5rem;
   font-size: 3rem;
+}
+
+
+
+/*products sivun oma css*/
+
+.prodtoptext {
+  padding: 0 3.5rem 0 3.5rem;
+}
+
+.prods {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: stretch;
+  gap: 0.5rem;
+}
+
+article {
+  background-color: rgb(233, 134, 134);
+  padding: 0 0.5rem 0 0.5rem;
+  background-image: none; /*taustakuva on globaalisti kaikissa elementeissä, muttei tässä*/
+  max-width: 19.7rem;
+}
+
+article h4 {
+  background-color: rgb(233, 134, 134);
+  background-image: none;
+  margin: 2rem 0 1rem 0;
+}
+
+article img {
+  background-color: rgb(233, 134, 134);
+  background-image: none;
+  
+}
+
+.caption {
+  font-style: italic;
+  color: rgb(36, 0, 71);
+  margin: 0 0 1rem 0;
+}
+
+article p {
+  background-color: rgb(233, 134, 134);
+  background-image: none;
+  line-height: 1.3;
 }
 
 
