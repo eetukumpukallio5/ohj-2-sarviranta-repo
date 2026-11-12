@@ -32,3 +32,15 @@
 # 3-5: 2 p
 
 ## Yhteensä 10 p
+
+## JS-moduuli 4
+
+# Linkki kansioon: ()
+
+# Tehdyt tehtävät:
+
+# 4-1: 2 p
+# 4-2: 2 p
+# 4-3: 2 p
+# 4-4: 2 p
+# 4-5: 5 p
